@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio-by-ET</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">RAKIB</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#portfolio">MY-WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <i class="fa-sharp fa fa2 fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fa" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="mainText">
+                    <h1>Hi, I'm <span> Rakibul </span> Hassan </h1>
+                    <p>Web Developer</p>
+                </div>
+                <div class="mainImage">
+                    <img src="images/IMG_20230510_115458-removebg-preview.png" alt="" id="main-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about-section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cols-1">
+                    <img src="images/my-heder.png" alt="">
+                </div>
+                <div class="about-cols-2">
+                    <h1 class="about-sub-title">About Me</h1>
+                    <p>I'm <span>Rakibul Hassan Shehab</span> front-end Web Developer I Specialize in Building Responsive, Interactive and User-Friendly Eebsites. I Mainly Work on Converting Different Design Files, such as,Figma  to HTML and CSS, Using Fesponsive Design and Clean Code.
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                            <p class="tab-links" onclick="opentab('expreience')">Expreience</p>
+
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                                <li><span>Web Development</span><br>Font-End Web Development</li>
+                                <li><span>Figma to Html</span><br>Figma to Html Convert</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="expreience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Web Designer as freelancer</li>
+                                <li><span>Web Development</span><br>Font-End Web Development</li>
+                                <li><span>Figma to Html</span><br>Figma to Html Convert</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>Jsc - 2020</span><br>From Babulia j.s High School.</li>
+                                <li><span>Ssc - 2022</span><br>From Babulia j.s High School.</li>
+                                <li><span> Hsc - 2023</span><br>From Satkhira City Collage.</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------services-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="about-sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore doloribus excepturi dicta magni sequi nobis cumque tempora. Velit, ipsa sint deleniti totam fugiat unde facere aut veritatis nostrum aliquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore doloribus excepturi dicta magni sequi nobis cumque tempora. Velit, ipsa sint deleniti totam fugiat unde facere aut veritatis nostrum aliquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore doloribus excepturi dicta magni sequi nobis cumque tempora. Velit, ipsa sint deleniti totam fugiat unde facere aut veritatis nostrum aliquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------portfilio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="about-sub-title">My-Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/my-work/download (1).jpg" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsam quaerat quae eligendi, nesciunt aperiam?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/my-work/download.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfilio</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsam quaerat quae eligendi, nesciunt aperiam?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/my-work/fox-free-template-353x278.jpg" alt="">
+                    <div class="layer">
+                        <h3>Education</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsam quaerat quae eligendi, nesciunt aperiam?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/my-work/images.jpg" alt="">
+                    <div class="layer">
+                        <h3>Education</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsam quaerat quae eligendi, nesciunt aperiam?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ---------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="about-sub-title">Contact</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>mdshehabsaddir486@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>01703890915</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100073833458308"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Rakibul-hassan-shehab"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-work/download (1).jpg" download    class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+
+                        <input type="email" name="Email" placeholder="Your Email" required>
+
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; Rakibul Hassan. Made with by Rakibul Hassan (shehab).</p>
+            </div>
+        </div>
+    </div>
+    <script src="s.js"></script>
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzWwViCfCNOx2JbdvVpecARnJZ0Shicd8_LQ2ocUHbouCKO1VNAxslVCoCd_mIJ_3Hp/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Messege send successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
